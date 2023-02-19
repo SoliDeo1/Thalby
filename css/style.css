@@ -31,6 +31,7 @@ header .logo{
     position: absolute;
     left:calc(50% - 40px);
     top: 16px;
+    display: inline-block;
 }
 header{
     padding: 15px 0;
@@ -51,7 +52,6 @@ header nav ul li a{
     text-decoration: none;
     font: 16px/26px 'robotobold';
     color: #1C1B1B;
-;
 }
 header nav ul li{
     margin-right: 28px;
@@ -66,6 +66,7 @@ header nav ul li:last-of-type{
 }
 .nav-icons-cont a{
     padding-left: 28px;
+    display: inline-block;
 }
 .main-banner{
     background-color: #F0EFEB;
@@ -96,6 +97,9 @@ main .main-banner .main-banner-art a{
 .main-banner-art{
     max-width: 481px;
     margin: auto;
+}
+.main-banner-art a{
+    display: inline-block;
 }
 main .main-banner .container-img img{
     display: block;
@@ -140,6 +144,7 @@ main .main-banner .container-img img{
 .best-sellers-bot-cont article a{
     font: 17px/19px 'robotobold';
     color: black;
+    display: inline-block;
 }
 .people-and-society-sect{
     display: flex;
@@ -156,11 +161,32 @@ main .main-banner .container-img img{
 .best-sellers-bot-cont article{
     max-width: 309px;
 }
-.best-sellers-bot-cont article{
-    padding-bottom: 248px;
-}
 .best-sell-art-bot-cont{
     max-width: 156px;
     text-align: center;
     margin: auto;
+}
+.owl-dots{
+    display: flex;
+    justify-content: center;
+}
+.owl-carousel span {
+    width:10px;
+    height:10px;
+    margin:5px 7px;
+    background: blue;
+    display:block;
+    border-radius: 50%;
+}
+.owl-carousel .active span {
+    width:20px;
+    height:20px;
+    margin:5px 7px;
+    background: red;
+    display:block;
+    border-radius: 50%;
+}
+.owl-item{
+    display: flex;
+    justify-content: center;
 }
