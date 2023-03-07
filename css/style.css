@@ -27,14 +27,8 @@
     padding: 0;
     margin: 0;
 }
-header .logo{
-    position: absolute;
-    left:calc(50% - 40px);
-    top: 16px;
-    display: inline-block;
-}
-header{
-    padding: 15px 0;
+.d-flex{
+    display: flex;
 }
 .container{
     margin: auto;
@@ -44,29 +38,9 @@ header .container{
     display: flex;
     justify-content: space-between;
 }
-header ul{
-    list-style: none;
-    display: flex;
-}
-header nav ul li a{
-    text-decoration: none;
-    font: 16px/26px 'robotobold';
-    color: #1C1B1B;
-}
-header nav ul li{
-    margin-right: 28px;
-}
-header nav ul li:last-of-type{
-    margin-right: 0;
-}
-.nav-icons-cont{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .nav-icons-cont a{
-    padding-left: 28px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
 }
 .main-banner{
     background-color: #F0EFEB;
@@ -111,6 +85,7 @@ main .main-banner .container-img img{
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin-bottom: 248px;
 }
 .best-sellers-top-cont{
     text-align: center;
@@ -146,18 +121,16 @@ main .main-banner .container-img img{
     color: black;
     display: inline-block;
 }
-.people-and-society-sect{
-    display: flex;
-}
-.people-and-society-text-sect{
-    margin: auto;
-    padding-left: 50px;
-    max-width: 530px;
-}
-.people-and-society-sect img{
-    width: 100%;
-    display: block;
-}
+
+
+/*<!--people-and-society-sect-->*/
+
+
+/*<!--cult-and-herit-sect-->*/
+
+
+
+
 .best-sellers-bot-cont article{
     max-width: 309px;
 }

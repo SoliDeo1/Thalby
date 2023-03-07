@@ -1,0 +1,31 @@
+header {
+  padding: 15px 0;
+}
+header .logo {
+  position: absolute;
+  left: calc(50% - 40px);
+  top: 16px;
+  display: inline-block;
+}
+header ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li a {
+  text-decoration: none;
+  font: 16px/26px "robotobold";
+  color: #1C1B1B;
+}
+header nav ul li {
+  margin-right: 28px;
+}
+header nav ul li:last-of-type {
+  margin-right: 0;
+}
+header .nav-icons-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*# sourceMappingURL=header.css.map */

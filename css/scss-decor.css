@@ -1,0 +1,61 @@
+.people-and-society-sect {
+  background-color: rgba(204, 204, 204, 0.3019607843);
+}
+.people-and-society-sect .people-and-society-text-sect {
+  max-width: 498px;
+  display: block;
+  padding-left: 50px;
+}
+.people-and-society-sect .people-and-society-text-sect h3 {
+  padding: 146px 0 31px;
+  font: 36px/42px "robotobold";
+}
+.people-and-society-sect .people-and-society-text-sect p {
+  padding-bottom: 30px;
+  font: 36px/42px "robotoregular";
+}
+.people-and-society-sect .people-and-society-text-sect a {
+  font: 17px/20px "robotobold";
+  color: #000000;
+}
+.people-and-society-sect img {
+  padding: 76px 0 51px 0;
+}
+
+.cult-and-herit-sect {
+  background-color: rgba(204, 204, 204, 0.6);
+}
+.cult-and-herit-sect .cult-and-herit-text-sect {
+  max-width: 498px;
+  display: block;
+  text-align: right;
+  padding-right: 50px;
+}
+.cult-and-herit-sect h3 {
+  font: 36px/42px "robotobold";
+  padding-top: 168px;
+  padding-bottom: 31px;
+}
+.cult-and-herit-sect p {
+  font: 36px/42px "robotoregular";
+  padding-bottom: 20px;
+}
+.cult-and-herit-sect a {
+  font: 17px/20px "robotobold";
+  color: #000000;
+}
+.cult-and-herit-sect img {
+  padding: 76px 0 51px 0;
+}
+
+.power-and-polit-sect {
+  background-color: rgba(204, 204, 204, 0.3019607843);
+}
+.power-and-polit-sect .power-and-polit-text-sect {
+  max-width: 498px;
+  display: block;
+  text-align: left;
+  padding-left: 50px;
+}
+
+/*# sourceMappingURL=scss-decor.css.map */
