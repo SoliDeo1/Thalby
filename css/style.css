@@ -8,7 +8,6 @@
     url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 @font-face {
     font-family: 'robotobold';
@@ -20,7 +19,6 @@
     url('../fonts/roboto-bold-webfont.svg#robotobold') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 *{
@@ -33,6 +31,12 @@
 .container{
     margin: auto;
     max-width: 1064px;
+}
+.centr-text-cont{
+    text-align: center;
+    padding-bottom: 52px;
+    max-width: 692px;
+    margin: auto;
 }
 header .container{
     display: flex;
@@ -121,15 +125,6 @@ main .main-banner .container-img img{
     color: black;
     display: inline-block;
 }
-
-
-/*<!--people-and-society-sect-->*/
-
-
-/*<!--cult-and-herit-sect-->*/
-
-
-
 
 .best-sellers-bot-cont article{
     max-width: 309px;

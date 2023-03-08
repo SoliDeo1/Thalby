@@ -57,5 +57,137 @@
   text-align: left;
   padding-left: 50px;
 }
+.power-and-polit-sect h3 {
+  font: 36px/42px "robotobold";
+  padding-top: 168px;
+  padding-bottom: 31px;
+}
+.power-and-polit-sect p {
+  font: 36px/42px "robotoregular";
+  padding-bottom: 20px;
+}
+.power-and-polit-sect a {
+  font: 17px/20px "robotobold";
+  color: #000000;
+}
+.power-and-polit-sect img {
+  padding: 76px 0 51px 0;
+}
+
+.dots-sect .dots-cont {
+  text-align: center;
+}
+.dots-sect p {
+  padding-top: 26px;
+  font: 30px/35px "robotobold";
+}
+.dots-sect .features-top-cont h3 {
+  font: 36px/42px "robotoregular";
+}
+.dots-sect .features-bot-cont p {
+  font: 26px/42px "robotobold";
+}
+.dots-sect .circle {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: #21F7EC;
+}
+.dots-sect .circle1 {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: #33D3BC;
+}
+.dots-sect .circle2 {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: #18A5C6;
+}
+.dots-sect .circle3 {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: #D38F62;
+}
+.dots-sect .circle4 {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: #F94C43;
+}
+.dots-sect .circle5 {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: #D399FF;
+}
+.dots-sect .dots-cont p {
+  padding-bottom: 111px;
+}
+
+.features-bot-cont p {
+  padding-bottom: 290px;
+  padding-top: 70px;
+}
+
+.features-top-cont {
+  padding-top: 190px;
+  padding-bottom: 69px;
+}
+
+.last-section {
+  background: #F0F0F0;
+  height: 620px;
+}
+.last-section .last-section-cont {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.last-section article {
+  padding-bottom: 52px;
+}
+.last-section a {
+  display: block;
+  padding-top: 28px;
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+.last-section p {
+  display: block;
+  padding-top: 24px;
+}
+.last-section h3 {
+  display: block;
+}
+.last-section .last-section-img {
+  position: relative;
+  top: -26%;
+}
+.last-section .last-section-text {
+  position: relative;
+  top: -15%;
+}
+.last-section .last-section-article-containers:first-of-type {
+  padding-right: 100px;
+}
+.last-section .last-section-article-containers:last-of-type {
+  padding-left: 100px;
+}
 
 /*# sourceMappingURL=scss-decor.css.map */

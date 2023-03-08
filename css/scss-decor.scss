@@ -56,7 +56,138 @@
     text-align: left;
     padding-left: 50px;
   }
+  h3{
+    font: 36px/42px 'robotobold';
+    padding-top: 168px;
+    padding-bottom: 31px;
+  }
+  p{
+    font: 36px/42px 'robotoregular';
+    padding-bottom: 20px;
+  }
+  a{
+    font: 17px/20px 'robotobold';
+    color: #000000;
+  }
+  img{
+    padding: 76px 0 51px 0;
+  }
+}
 
+.dots-sect {
+  .dots-cont {
+    text-align: center;
+  }
+  p {
+    padding-top: 26px;
+    font: 30px/35px 'robotobold';
+  }
+  .features-top-cont h3{
+    font: 36px/42px 'robotoregular';
+  }
+  .features-bot-cont p{
+    font: 26px/42px 'robotobold';
+  }
+  .circle{
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #21F7EC;
+  }
+  .circle1{
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #33D3BC;
+  }
+  .circle2{
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #18A5C6;
+  }
+  .circle3{
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #D38F62;
+  }
+  .circle4{
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #F94C43;
+  }
+  .circle5{
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #D399FF;
+  }
+  .dots-cont p{
+    padding-bottom: 111px;
+  }
+}
+.features-bot-cont p{
+  padding-bottom: 290px;
+  padding-top: 70px;
+}
+.features-top-cont{
+  padding-top: 190px;
+  padding-bottom: 69px;
+}
+
+.last-section{
+  background: #F0F0F0;
+  height: 620px;
+  .last-section-cont{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  article{
+    padding-bottom: 52px;
+  }
+  a{
+    display: block;
+    padding-top: 28px;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: black;
+  }
+  p{
+    display: block;
+    padding-top: 24px;
+  }
+  h3{
+    display: block;
+  }
+  .last-section-img{
+    position: relative;
+    top: -26%;
+  }
+  .last-section-text{
+    position: relative;
+    top: -15%;
+  }
+  .last-section-article-containers:first-of-type{
+    padding-right: 100px;
+  }
+  .last-section-article-containers:last-of-type{
+    padding-left: 100px;
+  }
 }
 
 
