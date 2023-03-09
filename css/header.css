@@ -26,6 +26,7 @@ header .nav-icons-cont {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
 }
 
-/*# sourceMappingURL=header.css.map */
+

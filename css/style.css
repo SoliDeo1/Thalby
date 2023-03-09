@@ -45,6 +45,8 @@ header .container{
 .nav-icons-cont a{
     display: flex;
     justify-content: center;
+    align-items: center;
+
 }
 .main-banner{
     background-color: #F0EFEB;
